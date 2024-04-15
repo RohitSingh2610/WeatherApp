@@ -1,3 +1,8 @@
+# WEATHER APP 
+## Using HTML , CSS , Javascript 
+## javascript 
+``` javascript
+// API CALL
 const url = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Seattle';
 const options = {
 	method: 'GET',
@@ -92,3 +97,6 @@ function updateDateTime() {
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     monthElement.textContent = `Month: ${months[now.getMonth()]}`;
 }
+
+
+```
